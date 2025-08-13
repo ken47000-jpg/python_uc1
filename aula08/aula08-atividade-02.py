@@ -24,8 +24,34 @@ def somar_numeros_v3 ():
    soma = n1+n2
    print(f"A soma é:{soma}")
 
+"""
+Exercicio3
+Crie um programa Python que use a função main() para calcular e imprimir a soma de dois números fornecidos pelo usuário.
+"""
+def soma2 (a, b):
+    return a+b
+
+def subtracao (a, b):
+    return a-b
+
+def soma_sub():
+   resultado_soma = soma2(10, 5)
+   resultado_subtracao = subtracao(14, 8)
+   print(f"Soma: {resultado_soma}")
+   print(f"Subtração: {resultado_subtracao}")
+
+"""
+Exercicio4
+Crie um programa Python que use a função main() para imprimir os números de 1 a 10.
+"""
+#list
+
+"""
+Bloco de execução
+"""
 if __name__ == "__main__":
    #saudacao()
    #print(f"{somar_numeros(15,16)}")
-   somar_numeros_v2 (15, 16)
+   #somar_numeros_v2 (15, 16)
    #somar_numeros_v3 ()
+   soma_sub()
